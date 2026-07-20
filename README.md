@@ -66,7 +66,6 @@ places-api/
 ├── util/
 ├── .env
 ├── app.js
-├── server.js
 ├── package.json
 └── README.md
 ```
@@ -132,7 +131,7 @@ npm start
 | GET | /api/places | Get all places |
 | GET | /api/places/:pid | Get place by ID |
 | POST | /api/places | Create a new place |
-| PUT | /api/places/:pid | Update a place |
+| PATCH | /api/places/:pid | Update a place |
 | DELETE | /api/places/:pid | Delete a place |
 
 ---
